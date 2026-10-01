@@ -11,7 +11,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<ListPage />} />
           <Route path="/pokemon/:name" element={<DetailPage />} />
-          <Route path="*" element={<NotFoundPage />} />.
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </HashRouter>
